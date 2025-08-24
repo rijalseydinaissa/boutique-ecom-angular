@@ -1,0 +1,22 @@
+.tool-container{
+    position: sticky;
+    top: 0;
+    padding: 0 1rem;
+    z-index: 100;
+    background: white;
+    border-bottom: 1px solid #e4e4e4;
+}
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    margin: 0 auto;
+
+}
+.cart-container{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+    cursor: pointer;
+}

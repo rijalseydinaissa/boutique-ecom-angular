@@ -1,0 +1,22 @@
+footer{
+    background:#e4e4e4; ;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    flex-wrap: wrap;
+    align-items: end;
+    padding: 2rem ;
+    .left-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4rem;
+
+        a{
+        display: block;
+        margin: 0.5rem 0;
+        }
+    }
+    
+}
